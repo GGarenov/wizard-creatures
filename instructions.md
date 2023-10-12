@@ -22,3 +22,6 @@
 
 8. Add controller folder with home controller
  - polzvame go kato middleware opravqme putq kum router-a i go mahame ot index.html
+9. Add datebase
+    - install mongoose
+    - connect to db
