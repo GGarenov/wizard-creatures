@@ -18,3 +18,7 @@
     - fix hyperlink styles (make the links from main.hbs from ./static/img etc to /img)
     - render home page in hbs 
 7. Convert all html views to handlerbars (hbs)
+    - group views by folders
+
+8. Add controller folder with home controller
+ - polzvame go kato middleware opravqme putq kum router-a i go mahame ot index.html
