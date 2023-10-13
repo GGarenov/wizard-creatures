@@ -22,11 +22,12 @@ app.set("views", "src/views");
 async function dbConnect() {
   await mongoose.connect(DB_URL);
 }
+
 dbConnect()
   .then(() => {
-    console.log(`SUccessfully connected to the database!`);
+    console.log("Successfully connected to the database!");
   })
-  .catch((err) => console.log(`Error while connecting to the DB. Error ${err} `));
+  .catch((err) => console.log(`Error while connecting to the he DB. ${err}`));
 
 //Routes
 
