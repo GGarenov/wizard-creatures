@@ -24,4 +24,10 @@
  - polzvame go kato middleware opravqme putq kum router-a i go mahame ot index.html
 9. Add datebase
     - install mongoose
-    - connect to db
+    - connect to db (if there is a problem try task manager - services MongoDB to run)
+10. Authentication
+    - user controller
+    - add controller to routes
+    - fix navigations in the nav bar (login, register, logout)
+    - render login page
+    - render register page
