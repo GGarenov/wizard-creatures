@@ -35,3 +35,8 @@
     - simple validation in Schema
     - add method for register
     - create first User record in the db
+    - validate password
+    - validate email
+12. Hash password
+    - install bcrypt
+    - hash password

@@ -27,4 +27,6 @@ router.post("/login", (req, res) => {
   res.redirect("/");
 });
 
+//TO DO: provide logout endpoint
+
 module.exports = router;
