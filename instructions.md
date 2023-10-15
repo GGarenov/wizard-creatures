@@ -43,3 +43,9 @@
 13. Login
     - find user by email
     - validate password with hash
+
+14. Generate jsonwebtoker
+    - install jsonwebtoken
+    - promisify jsonwebtoken
+    - generate secret
+    - generate token in service login
