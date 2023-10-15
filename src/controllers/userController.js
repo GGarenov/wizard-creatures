@@ -34,5 +34,9 @@ router.post("/login", async (req, res) => {
 });
 
 //TO DO: provide logout endpoint
+router.get("/logout", (req, res) => {
+  res.clearCookie("token");
+  res.redirect("/");
+});
 
 module.exports = router;
