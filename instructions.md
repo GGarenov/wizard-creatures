@@ -71,3 +71,6 @@
 20. Show error notification
     - show in the main layout
     - pass error to render in login and register pages
+21. Add all-posts page
+    - make routes and post controller
+    - fix hyperlinks and images in all-post page  
