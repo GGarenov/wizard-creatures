@@ -49,3 +49,7 @@
     - promisify jsonwebtoken
     - generate secret
     - generate token in service login
+15. Return token in cookie
+    - install cookie-parser
+    - config cookie-parser
+    - set cookie with the token
