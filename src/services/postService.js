@@ -1,13 +1,13 @@
 const uniqid = require("uniqid");
 const posts = [
-  {
-    name: "Dark Magician",
-    specie: "druid",
-    skin: "white",
-    eye: "blue",
-    image: "https://static.wikia.nocookie.net/myyugiohdeck/images/d/da/Dark_Magician.jpg",
-    description: "The dark magician from Yu-Gi-Oh",
-  },
+  //   {
+  //     name: "Dark Magician",
+  //     specie: "druid",
+  //     skin: "white",
+  //     eye: "blue",
+  //     image: "https://static.wikia.nocookie.net/myyugiohdeck/images/d/da/Dark_Magician.jpg",
+  //     description: "The dark magician from Yu-Gi-Oh",
+  //   },
 ];
 
 exports.create = (postData) => {
