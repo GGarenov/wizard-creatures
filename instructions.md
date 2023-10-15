@@ -63,3 +63,11 @@
 18. Dynamic navigation
     - conditional options in navigation
     - add data to res.locals for hbs template
+19. Error Handling
+    - add 404 page
+    - redirect missing route to 404
+    - add global error handler (optional)
+    - add error message util
+20. Show error notification
+    - show in the main layout
+    - pass error to render in login and register pages
