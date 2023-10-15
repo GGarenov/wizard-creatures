@@ -74,3 +74,5 @@
 21. Add all-posts page
     - make routes and post controller
     - fix hyperlinks and images in all-post page  
+22. Create page
+    - just editing create page and make it available
