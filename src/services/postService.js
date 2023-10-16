@@ -1,14 +1,5 @@
 const uniqid = require("uniqid");
-const posts = [
-  {
-    name: "Dark Magician",
-    specie: "druid",
-    skin: "white",
-    eye: "blue",
-    image: "https://static.wikia.nocookie.net/myyugiohdeck/images/d/da/Dark_Magician.jpg",
-    description: "The dark magician from Yu-Gi-Oh",
-  },
-];
+const posts = [];
 
 exports.create = (postData) => {
   const newPost = {
@@ -21,5 +12,8 @@ exports.create = (postData) => {
 };
 
 exports.getAll = () => {
-  return [...posts];
+  return posts; // Return the reference to the same array
 };
+
+// Export the posts array so it can be shared with other parts of your application
+exports.posts = posts;

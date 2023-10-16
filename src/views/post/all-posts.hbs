@@ -5,13 +5,14 @@
         <div class="band">
             {{#each posts}}
             {{>postTemplate}}
-            {{/each}}
 
+            {{else}}
             <!-- If there are posts for creature in the database display each of them -->
             <!-- If there are still no posts in the database display: -->
-            <!-- <div class="no-posts">
-                        <p class="no-offer">There are no posts yet...</p>
-                    </div> -->
+            <div class="no-posts">
+                <p class="no-offer">There are no posts yet...</p>
+            </div>
         </div>
+        {{/each}}
     </section>
 </main>
