@@ -79,3 +79,43 @@
     - Make postService and modify it so that create post work
 
 23. Make post template
+
+
+
+
+ 
+ 
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//TO DO's
+- Map pages to navigation in oth LoggedIn and LoggedOut state
+- Add Creature model to mongoose
+- Implement All Posts Page
+    - show each creature with image, name, species, description
+    - add details button to every creature
+- Add details page (for creatures)
+    - If no creatures "There are no posts yet..."
+    - If the user is the owner of the post should have "Edit" and "Delete" button
+    - If the user hasn't logged in - no buttons
+    - If the user is not the owner -> vote button
+- Vote button
+    - when clicked -> "voted"
+    - redirect to the details page for the current creature
+    - show the email of the voted people
+    - if the user already has voted -> "Thanks for Voting" and add the email of the voted people
+- Add Creature (Create post)
+    - On success redirect to all posts page
+- Delete Creature
+    - On success redirect to all posts page
+- Edit Creature
+    - On succes redirect to current creature page
+- Routes Guards - check
+- Validations
+    - Login
+    - Register
+    - Animals
+- BONUS -> Profile
+    - show my posts
+    - if there are no posts - msg
