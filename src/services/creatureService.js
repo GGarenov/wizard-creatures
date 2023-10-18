@@ -17,3 +17,7 @@
 
 // // Export the posts array so it can be shared with other parts of your application
 // exports.posts = posts;
+
+const Creature = require("../models/Creature");
+
+exports.create = (creatureData) => Creature.create(creatureData);

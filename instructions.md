@@ -71,14 +71,11 @@
 20. Show error notification
     - show in the main layout
     - pass error to render in login and register pages
-21. Add all-posts page
-    - make routes and post controller
-    - fix hyperlinks and images in all-post page  
-22. Create page
-    - just editing create page and make it available
-    - Make postService and modify it so that create post work
 
-23. Make post template
+21. Map pages to navigation in both LoggedIn and LoggedOut state
+    - created all-posts page and its routes, create page and profile page.
+
+22. Add creature model to Mongoose
 
 
 
@@ -90,7 +87,6 @@
 
 
 //TO DO's
-- Map pages to navigation in oth LoggedIn and LoggedOut state
 - Add Creature model to mongoose
 - Implement All Posts Page
     - show each creature with image, name, species, description

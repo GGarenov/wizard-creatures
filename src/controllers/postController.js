@@ -26,6 +26,7 @@
 // module.exports = router;
 
 const router = require("express").Router();
+const creatureService = require("../services/creatureService");
 
 router.get("/all", (req, res) => {
   res.render("post/all-posts");
@@ -33,6 +34,13 @@ router.get("/all", (req, res) => {
 
 router.get("/create", (req, res) => {
   res.render("post/create");
+});
+
+router.post("/create", async (req, res) => {
+  const { name, specie, skinColor, eyeColor, imageUrl, description } = req.body;
+  const payload = { name, specie, skinColor, eyeColor, imageUrl, description };
+  await creatureService.create(payload);
+  res.redirect("/posts/all");
 });
 
 router.get("/profile", (req, res) => {
