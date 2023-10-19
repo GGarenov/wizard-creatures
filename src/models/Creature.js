@@ -5,7 +5,7 @@ const creatureSchema = new mongoose.Schema({
   species: String,
   skinColor: String,
   eyeColor: String,
-  image: String,
+  imageUrl: String,
   description: String,
   votes: [
     {

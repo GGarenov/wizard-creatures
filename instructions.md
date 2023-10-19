@@ -77,6 +77,10 @@
 
 22. Add creature model to Mongoose
 
+23. Implement All Posts Page
+    - show each creature with image, name, species, description
+    - add details button to every creature
+
 
 
 
@@ -87,7 +91,6 @@
 
 
 //TO DO's
-- Add Creature model to mongoose
 - Implement All Posts Page
     - show each creature with image, name, species, description
     - add details button to every creature
