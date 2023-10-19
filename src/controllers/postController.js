@@ -37,9 +37,39 @@ router.get("/:creatureId/details", async (req, res) => {
   const { user } = req;
   const { owner } = creature;
   const isOwner = user?._id === owner.toString();
+  console.log({ user });
 
   res.render("post/details", { creature, isOwner });
-  console.log({ user });
+});
+
+router.get("/:creatureId/edit", async (req, res) => {
+  const { creatureId } = req.params;
+
+  const creature = await creatureService.singleCreature(creatureId).lean();
+  res.render("post/edit", { creature });
+});
+
+router.post("/:creatureId/edit", async (req, res) => {
+  const { creatureId } = req.params;
+  const { name, specie, skinColor, eyeColor, imageUrl, description } = req.body;
+  const payload = {
+    name,
+    specie,
+    skinColor,
+    eyeColor,
+    imageUrl,
+    description,
+    owner: req.user,
+  };
+
+  await creatureService.update(creatureId, payload);
+  res.redirect(`/posts/${creatureId}/details`);
+});
+
+router.get("/:creatureId/delete", (req, res) => {
+  const { creatureId } = req.params;
+
+  res.redirect("/posts/all");
 });
 
 module.exports = router;
