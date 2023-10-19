@@ -91,9 +91,6 @@
 
 
 //TO DO's
-- Implement All Posts Page
-    - show each creature with image, name, species, description
-    - add details button to every creature
 - Add details page (for creatures)
     - If no creatures "There are no posts yet..."
     - If the user is the owner of the post should have "Edit" and "Delete" button

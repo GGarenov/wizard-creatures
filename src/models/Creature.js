@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const creatureSchema = new mongoose.Schema({
   name: String,
-  species: String,
+  specie: String,
   skinColor: String,
   eyeColor: String,
   imageUrl: String,
