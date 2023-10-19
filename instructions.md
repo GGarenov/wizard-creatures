@@ -99,7 +99,12 @@
     - if there are no posts - msg
     Make changes in postController and creatureService 
 
-
+28. Vote button
+    - when clicked -> "Thanks for voting"
+    - total votes
+    - redirect to the details page for the current creature
+    - show the email of the voted people
+    - if the user already has voted -> "Thanks for Voting" and add the email of the voted people
 
 
 
@@ -113,11 +118,6 @@
 
 //TO DO's
 
-- Vote button
-    - when clicked -> "voted"
-    - redirect to the details page for the current creature
-    - show the email of the voted people
-    - if the user already has voted -> "Thanks for Voting" and add the email of the voted people
 
 - Routes Guards - check
 - Validations
