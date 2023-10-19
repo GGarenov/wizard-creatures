@@ -90,6 +90,11 @@
     - Make edit button working, edit creatureUpdate and edint in postController and creatureService
     - On succes redirect to current creature page
 
+26. Delete Creature
+    - We get the creatureId and delete it. Also in creatureService we exports the delete function
+    - On success redirect to all posts page
+
+
 
 
 
@@ -111,8 +116,7 @@
 
 - Delete Creature
     - On success redirect to all posts page
-- Edit Creature
-    - On succes redirect to current creature page
+
 - Routes Guards - check
 - Validations
     - Login

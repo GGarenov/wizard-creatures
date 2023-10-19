@@ -37,7 +37,6 @@ router.get("/:creatureId/details", async (req, res) => {
   const { user } = req;
   const { owner } = creature;
   const isOwner = user?._id === owner.toString();
-  console.log({ user });
 
   res.render("post/details", { creature, isOwner });
 });
@@ -66,9 +65,10 @@ router.post("/:creatureId/edit", async (req, res) => {
   res.redirect(`/posts/${creatureId}/details`);
 });
 
-router.get("/:creatureId/delete", (req, res) => {
+router.get("/:creatureId/delete", async (req, res) => {
   const { creatureId } = req.params;
-
+  console.log({ creatureId });
+  await creatureService.delete(creatureId);
   res.redirect("/posts/all");
 });
 
