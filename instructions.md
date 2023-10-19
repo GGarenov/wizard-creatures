@@ -106,6 +106,10 @@
     - show the email of the voted people
     - if the user already has voted -> "Thanks for Voting" and add the email of the voted people
 
+29. Validations (min and max characters)
+    - Login 
+    - Register 
+    - Animals 
 
 
 
