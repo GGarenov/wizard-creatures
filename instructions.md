@@ -115,19 +115,3 @@
     - I make isAuth for not logged users to protect create page and my profile.
 
 
-
-
- 
- 
- 
- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-//TO DO's
-
-
-- Routes Guards - check
-- Validations
-    - Login
-    - Register
-    - Animals
