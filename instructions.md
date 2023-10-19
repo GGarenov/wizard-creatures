@@ -94,6 +94,11 @@
     - We get the creatureId and delete it. Also in creatureService we exports the delete function
     - On success redirect to all posts page
 
+27. My Profile
+    - show my posts
+    - if there are no posts - msg
+    Make changes in postController and creatureService 
+
 
 
 
@@ -114,14 +119,8 @@
     - show the email of the voted people
     - if the user already has voted -> "Thanks for Voting" and add the email of the voted people
 
-- Delete Creature
-    - On success redirect to all posts page
-
 - Routes Guards - check
 - Validations
     - Login
     - Register
     - Animals
-- BONUS -> Profile
-    - show my posts
-    - if there are no posts - msg
