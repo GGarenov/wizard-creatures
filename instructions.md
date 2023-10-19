@@ -111,6 +111,9 @@
     - Register 
     - Animals 
 
+30. Routes Guards - check
+    - I make isAuth for not logged users to protect create page and my profile.
+
 
 
 
